@@ -1,0 +1,6 @@
+TAGS/ELEMENTS
+- div - id="video"
+- div - id="show-info"
+- aside - id="fun-facts"
+- main - id="about-history"
+- aside - id="release-dates"

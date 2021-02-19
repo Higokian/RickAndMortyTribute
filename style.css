@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #69C8ECFF;
+}
+
+.content {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   flex-wrap: wrap;
+   
+}
+
+#video {
+    width: 80%;
+    min-height: 300px;
+    background-color: whitesmoke;
+}
+
+#show-info {
+    width: 80%;
+    min-height: 600px;
+    background-color: thistle;
+    display: flex;
+
+}
+
+#fun-facts {
+width: 25%;
+background-color: #E89242FF;
+}
+
+#about-history {
+width: 50%;
+background-color: #A6EEE6FF;
+}
+
+#release-dates {
+width: 25%;
+background-color: #FB6467FF;
+}
