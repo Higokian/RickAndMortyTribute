@@ -2,10 +2,47 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Creepster', cursive;
 }
 
 body {
-    background-color: #69C8ECFF;
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url("rickandmortybackground.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #FAFD7CFF;
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: 0px 0px 25px black;
+}
+
+h1 {
+    font-size: 8em;
+    text-align: center;
+    text-shadow: 8px -8px rgb(142, 248, 2);
+    color: #A6EEE6FF;
+    font-family: 'Creepster', cursive;
+    letter-spacing: 15px;
+    padding-top: 40px;
+}
+
+h2 {
+    font-size: 80px;
+    text-shadow: 8px -8px rgb(142, 248, 2);
+    color: #FAFD7CFF;
+    text-align: center;
+}
+
+h3 {
+    text-shadow: 5px 3px 20px #526E2DFF;
+    color: #A6EEE6FF;
+    font-size: xx-large;
 }
 
 .content {
@@ -13,34 +50,47 @@ body {
    flex-direction: row;
    justify-content: center;
    flex-wrap: wrap;
-   
 }
 
-#video {
-    width: 80%;
-    min-height: 300px;
-    background-color: whitesmoke;
-}
-
-#show-info {
-    width: 80%;
-    min-height: 600px;
-    background-color: thistle;
-    display: flex;
-
+.video {
+    padding-top: 100px;
 }
 
 #fun-facts {
-width: 25%;
+max-width: 300px;
+position: absolute;
+left: 5%;
+top: 10%;
+height: 50%;
 background-color: #E89242FF;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-content: flex-start;
+padding: 10px;
+border-radius: 20px;
+margin-left: -40px;
+box-shadow: -5px 3px 20px black;
 }
 
-#about-history {
-width: 50%;
+.info {
 background-color: #A6EEE6FF;
+display: flex;
+flex-wrap: nowrap;
+justify-content: space-evenly;
+align-content: center;
+padding-bottom: 100px;
+margin-top: 3%;
+border-radius: 30px;
+box-shadow: 0px 0px 20px black;
 }
 
-#release-dates {
-width: 25%;
-background-color: #FB6467FF;
+.info-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.history {
+    padding-top: 100px;
+    width: 50%;
 }
