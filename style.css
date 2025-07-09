@@ -24,7 +24,6 @@ header {
     display: flex;
     justify-content: space-evenly;
     background-color: #FAFD7CFF;
-    border-radius: 0px 0px 15px 15px;
     box-shadow: 0px 0px 25px black;
 }
 
@@ -68,7 +67,6 @@ p + p {
 
 .content {
    display: flex;
-   flex-direction: row;
    justify-content: center;
    flex-wrap: wrap;
 }
@@ -98,7 +96,6 @@ p + p {
     background: linear-gradient(to right top,#A6EEE6FF, #69C8EC);
     background-color: #A6EEE6FF;
     display: flex;
-    flex-wrap: nowrap;
     justify-content: space-evenly;
     align-content: center;
     padding-bottom: 100px;
@@ -122,6 +119,8 @@ p + p {
 .history {
     padding-top: 100px;
     width: 50%;
+    display: flex;
+    flex-direction: column;
 }
 
 #character-container > h2 {
@@ -155,10 +154,10 @@ footer {
     height: 50px;
     text-align: center;
     margin-top: 30px;
-    color: whitesmoke;
-    background-color: dimgray;
+    background-color: #FAFD7CFF;
 }
 
+/*
 @media only screen and (max-width: 768px) {
 
     .content {
