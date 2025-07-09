@@ -38,7 +38,6 @@ body div {
 header {
     display: flex;
     justify-content: space-evenly;
-    background-color: #FAFD7CFF;
     box-shadow: 0px 0px 25px black;
 }
 
